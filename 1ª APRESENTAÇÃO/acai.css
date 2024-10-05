@@ -1,0 +1,212 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Century;
+    
+}
+
+.header-1.div{
+    display: flex;
+    overflow: hidden; 
+    position: relative;
+    /*height: 50px;*/
+    width: 20px;
+}
+   
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 40vh; 
+    overflow: hidden; 
+    margin: auto; 
+}
+
+.carousel img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: none; 
+}
+
+.carousel img.active {
+    display: block; 
+}
+
+.desenvolvimento{
+    background-color: #8e44ad;
+}
+
+.sociais {
+    display: flex;
+    justify-content: center;
+    background-color: #8e44ad; 
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.icone {
+    margin: 0 15px;
+    transition: transform 0.3s; 
+}
+
+.icone img {
+    width: 40px; 
+    height: 40px; 
+    transition: opacity 0.3s; 
+}
+
+.icone:hover {
+    transform: scale(1.1); 
+}
+
+.icone:hover img {
+    opacity: 0.8; 
+}
+
+.container{
+    background-color: #f8f9fa;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 02px 10px rgba(0,0,0,0.1);
+   
+}
+.meio{
+    /*background-image: url('img/acai-frutas.jpeg');*/
+    /*background-repeat: no-repeat;*/
+    height: 80px;
+    background-size:cover;
+    background-position: center;
+    margin-inline-start: 1px;
+    margin-inline-start: 1px;
+}
+
+.nossos-Produtos{
+    border: 1px solid #8e44ad;
+    border-radius: 5px;
+    padding: 15px;
+    
+
+    }
+    
+    .produtos{
+        text-align: right;
+        justify-content: end;
+        color: #50da19;
+        font-size: 60px;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        margin-top: 1px;
+        
+       
+
+    }
+    .cupuaçu{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    
+
+    }
+    .creme{
+        font-size: 20px;
+        color: #8e44ad;
+    }
+    .açai{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+        
+    }
+    .puro{
+        font-size: 20px;
+        color: #8e44ad;
+    }
+    .juntos{
+        font-size: 20px;
+        color: #8e44ad;
+    }
+    .casadinho{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    }
+    
+    .pedido1{
+        padding: 10px 50px;
+        border-radius: 30px;
+        background-color: #50da19;
+        border: none;
+        color: #8e44ad;
+        justify-items: left;
+        margin: 3%;
+        
+    }
+    .pedido2{
+        padding: 10px 50px;
+        border-radius: 30px;
+        background-color: #50da19;
+        border: none;
+        color: #8e44ad;
+        justify-items: left;
+        margin: 3%;
+        
+    }
+    .pedido3{
+        padding: 10px 50px;
+        border-radius: 30px;
+        background-color: #50da19;
+        border: none;
+        color: #8e44ad;
+        justify-items: left;
+        margin: 3%;
+        
+    }
+
+
+.apresentação{
+    display: flex;
+    border: 1px solid #8e44ad;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f2e3f8;
+    
+    color: #8e44ad;
+/*background-size: auto;*/
+}
+
+.desenvolvimento{
+    border: 1px solid #8e44ad;
+    border: 2px#f2e3f8;
+    color: #8e44ad;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+}
+
+/*.comercial{
+    border: 1px solid #8e44ad;
+    border: 2px #f2e3f8;
+    color: #8e44ad;
+    justify-content: space-between;
+    text-align: center;
+   
+}*/
+.aqui{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #50da19;
+    border: none;
+    color: #8e44ad;
+    justify-items: left;
+    margin: 3%;
+}
+footer{
+    background-color: #8e44ad;
+    color: #f8f9fa;
+    text-align: center;
+}
+
